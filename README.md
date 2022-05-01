@@ -1,19 +1,29 @@
 # Stock Analysis Overview
 
-The original goal of this analysis was to assist the client in assessing the dataset of the stock market for the last few years to understand trends in stock profitability. Once that was completed, the new goal was to refactor the code I had created to make my code run more efficiently with the goal that it could handle larger amounts of stock data beyond the dozen I used for this project. No additional functionality was added to the code, I simply streamlined it to better fit the client’s needs and to make it easier to read and understand for any future users. 
+The original goal of this analysis was to assist the client in assessing the dataset of the stock market for the last few years to understand trends in stock profitability. Once that was completed, the new goal was to refactor the code I had created to make my code run more efficiently with the goal that it could handle larger amounts of stock data beyond the dozen I used for this project. No additional functionality was added to the code, I simply streamlined it to better fit the client’s needs and to make it easier to read and understand for any future users. Both codes can be found [here](https://github.com/mlostritto/stock-analysis/blob/498e96cd041f87316a9d89615d8b78b76966f43e/VBA_Challenge.xlsm), with the original code in Module 1 and the refactored code in Module 2.  
 
 # Results
 
 ## Stock Performance Comparison
 
-(insert images here)
-In the above images, thanks to the red and green fillers, it is easy to see which stocks performed well and which did not. This quick comparison also allows us to see that 2017 was a much better year for the majority of these 12 stocks than 2018 and having the data for both years easily accessible will make it simple for the client to draw conclusions about the best path forward for their investments. Even I, with no experience with stocks, can see that EMPH and RUN were the only two stocks to turn a profit in both 2017 and 2018, which logically makes them the best candidates for invested based on this data alone (other factors may influence that decision, of course). 
+![Stocks 2017](https://github.com/mlostritto/stock-analysis/blob/498e96cd041f87316a9d89615d8b78b76966f43e/Resources/VBA_Challenge_Stocks_2017.PNG)
+![Stocks 2018](https://github.com/mlostritto/stock-analysis/blob/498e96cd041f87316a9d89615d8b78b76966f43e/Resources/VBA_Challenge_Stocks_2018.PNG)
+
+In the above images, thanks to the red and green fillers, it is easy to see which stocks performed well and which did not. This quick comparison also allows us to see that 2017 was a much better year for the majority of these 12 stocks than 2018 and having the data for both years easily accessible will make it simple for the client to draw conclusions about the best path forward for their investments. Even I, with no experience with stocks, can see that EMPH and RUN were the only two stocks to turn a profit in both 2017 and 2018, which logically makes them the best candidates for investment based on this data alone (other factors may influence that decision, of course). 
 
 ## Execution Times of Original Vs. Refactored Scripts
-(insert images here)
+
+![Execution time original code 2017](https://github.com/mlostritto/stock-analysis/blob/498e96cd041f87316a9d89615d8b78b76966f43e/Resources/VBA_Challenge_2017_Originalcode.PNG)
+![Execution time original code 2018](https://github.com/mlostritto/stock-analysis/blob/498e96cd041f87316a9d89615d8b78b76966f43e/Resources/VBA_Challenge_2018_Originalcode.PNG)
+
 These are the run times for the original code. 
-(insert images here)
-These are the run times for the refactored code. It is clear that the refactored code runs quite a bit faster than the original and since it produces the same desired results, this would be the code best suited for the clients needs and could also be more widely applicable for larger data sets. 
+
+![Execution time refactored code 2017](https://github.com/mlostritto/stock-analysis/blob/498e96cd041f87316a9d89615d8b78b76966f43e/Resources/VBA_Challenge_2017_Refactored.PNG)
+![Execution time refactored code 2018](https://github.com/mlostritto/stock-analysis/blob/498e96cd041f87316a9d89615d8b78b76966f43e/Resources/VBA_Challenge_2018_Refactored.PNG)
+
+These are the run times for the refactored code. 
+
+It is clear that the refactored code runs quite a bit faster than the original and since it produces the same desired results, this would be the code best suited for the clients needs and could also be more widely applicable for larger data sets. 
 
 # Summary
 
